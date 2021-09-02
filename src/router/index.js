@@ -8,35 +8,40 @@ const routes = [
     path: '/',
     name: 'tabbar',
     component: () => import('../views/tabbar'),
-    redirect:'/discover',
-    children:[
+    redirect: '/discover',
+    children: [
       {//发现
-        path:'/discover',
-        name:"discover",
-        component:()=>import('../views/discover')
+        path: '/discover',
+        name: "discover",
+        component: () => import('../views/discover')
       },
       {//播客
-        path:'/podcast',
-        name:"podcast",
-        component:()=>import('../views/podcast')
+        path: '/podcast',
+        name: "podcast",
+        component: () => import('../views/podcast')
       },
       {//我的
-        path:'/mine',
-        name:"mine",
-        component:()=>import('../views/mine')
+        path: '/mine',
+        name: "mine",
+        component: () => import('../views/mine')
       },
       {//K歌
-        path:'/sing',
-        name:"sing",
-        component:()=>import('../views/sing')
+        path: '/sing',
+        name: "sing",
+        component: () => import('../views/sing')
       },
       {//云村
-        path:'/cloud',
-        name:"cloud",
-        component:()=>import('../views/cloud')
+        path: '/cloud',
+        name: "cloud",
+        component: () => import('../views/cloud')
       },
     ]
   },
+  {
+    path: '/search',
+    name: "search",
+    component: () => import('../views/search')
+  }
 ]
 
 const router = new VueRouter({

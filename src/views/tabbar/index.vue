@@ -1,7 +1,6 @@
 <template>
   <div>
     <router-view></router-view>
-    <div class="leftopen">打开</div>
     <ul class="tabbar">
       <li
         v-for="item in tabbarIcon"
@@ -20,6 +19,7 @@
 </template>
 
 <script>
+import '../../assets/topcss/top.scss'//这是底部导航路由的top插槽样式
 import { tabbarIcon } from "@/geticon/icon.js";
 export default {
   data() {
@@ -49,15 +49,6 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.leftopen {
-  // 遮罩层
-  width: 50px;
-  height: 30px;
-  background: red;
-  position: fixed;
-  top: 0;
-  left: 10px;
-}
 .tabbar {
   width: 100vw;
   height: 50px;

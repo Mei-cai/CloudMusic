@@ -6,7 +6,7 @@
 </template>
 
 <style lang="scss">
-  body,ul,li,a{
+  body,ul,li,a,input,p,div,span,i{
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -19,7 +19,6 @@
     .top{
       width: 100vw;
       height: 60px;
-      background: pink;
       margin: 0 auto;
     }
   }

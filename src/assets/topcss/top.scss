@@ -1,0 +1,36 @@
+//发现页面插槽中样式
+.centersearch {
+    width: 264px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    background: #eaeaea;
+    line-height: 36px;
+    color: rgb(139, 136, 136);
+    font-size: 14px;
+    // padding-left: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    .centersearchone{
+        width: 34px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        i{
+            font-size: 14px;
+            color: rgb(139, 136, 136);
+        }
+    }
+    
+  }
+  .discover{
+    .listen{
+        width: 30px;
+        height: 60px;
+        line-height: 60px;
+      i{
+          font-size: 24px;
+          color: rgb(36, 33, 33);
+      }
+    }
+}

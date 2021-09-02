@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 //iconfont
-import './assets/iconfont/iconfont.css'
+// import './assets/iconfont/iconfont.css'
 
 
 
