@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2782279 */
+  src: url('iconfont.woff2?t=1630477565325') format('woff2'),
+       url('iconfont.woff?t=1630477565325') format('woff'),
+       url('iconfont.ttf?t=1630477565325') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-karaoke-selected:before {
+  content: "\e60a";
+}
+
+.icon-yinfu1:before {
+  content: "\e657";
+}
+
+.icon-wangyiyunyinle:before {
+  content: "\e611";
+}
+
+.icon-duorenyonghu2:before {
+  content: "\e600";
+}
+
+.icon-leida-default:before {
+  content: "\e608";
+}
+
+.icon-duorenyonghu:before {
+  content: "\e602";
+}
+
+.icon-yinfu2:before {
+  content: "\e6bd";
+}
+
+.icon-leida:before {
+  content: "\e61e";
+}
+
+.icon-wangyiyunyinle1:before {
+  content: "\e603";
+}
+
+.icon-Kge:before {
+  content: "\e604";
+}
+

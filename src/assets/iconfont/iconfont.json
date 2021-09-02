@@ -1,0 +1,79 @@
+{
+  "id": "2782279",
+  "name": "网易云音乐",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22134469",
+      "name": "K歌",
+      "font_class": "karaoke-selected",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "7467789",
+      "name": "音符",
+      "font_class": "yinfu1",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "8758558",
+      "name": "网易云音乐",
+      "font_class": "wangyiyunyinle",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "13102517",
+      "name": "多人 用户 2",
+      "font_class": "duorenyonghu2",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13713253",
+      "name": "雷达-default",
+      "font_class": "leida-default",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "15648659",
+      "name": "多人 用户",
+      "font_class": "duorenyonghu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "16102645",
+      "name": "音符",
+      "font_class": "yinfu2",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "18158913",
+      "name": "雷达",
+      "font_class": "leida",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "22321913",
+      "name": "网易云音乐",
+      "font_class": "wangyiyunyinle1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "22831974",
+      "name": "K歌",
+      "font_class": "Kge",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
