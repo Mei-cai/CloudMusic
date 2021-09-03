@@ -24,7 +24,7 @@ export default {
     width: 355px;
     height: 100%;
     margin: 0 auto;
-    background: pink;
+    // background: pink;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;

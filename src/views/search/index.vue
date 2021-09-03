@@ -1,15 +1,27 @@
 <template>
-  <div class="search">
-      搜索
-  </div>
+  <div class="search">{{placeholder}}</div>
 </template>
 
 <script>
 export default {
-
-}
+  data() {
+    return {
+      placeholder: "", //默认搜索关键词
+    };
+  },
+  created() {
+    this.getDefault(); //获取默认搜索关键词
+  },
+  methods: {
+    //获取默认搜索关键词
+    getDefault() {
+      this.api.defaultSearchFn().then((res) => {
+        this.placeholder = res.data.data.showKeyword;
+      });
+    },
+  },
+};
 </script>
 
 <style lang='scss' scoped>
-
 </style>
