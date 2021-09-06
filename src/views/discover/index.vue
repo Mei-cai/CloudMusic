@@ -53,13 +53,13 @@ export default {
   methods: {
     //获取默认搜索关键词
     getDefault() {
-      this.api.defaultSearchFn().then((res) => {
+      this.api.defaultSearch().then((res) => {
         this.defaultsearch = res.data.data.realkeyword;
       });
     },
     //轮播图数据
     async getBanner() {
-      await this.api.bannerSwiperFn().then((res) => {
+      await this.api.discoverBanner().then((res) => {
         console.log(res.data.banners);
         this.bannerList = res.data.banners;
       });

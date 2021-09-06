@@ -14,7 +14,6 @@
 </template>
 
 <script>
-// import { Toast } from "vant";
 import { swiper, swiperSlide } from "vue-awesome-swiper";
 import "swiper/dist/css/swiper.css";
 export default {
